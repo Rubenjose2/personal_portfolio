@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Give+You+Glory|Homemade+Apple|Nothing+You+Could+Do|Special+Elite');
+
+/* font-family: 'Homemade Apple', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Give You Glory', cursive; */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+}
+
+.picture_main {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.container_picture {
+    position: relative;
+    color: white;
+}
+
+.center_text {
+    position: absolute;
+    top: 50%;
+    transform: (-50%, -50%);
+    font-family: 'Special Elite', cursive;
+    font-size: 40px;
+}
+
+.center_text2 {
+    font-family: 'Give You Glory', cursive;
+    color: #FFA612;
+}
+
+.logo_cards {
+    text-align: center;
+    font-size: 80px;
+    color: #FFA612;
+}
+
+.content_cards {
+    text-align: justify;
+}
