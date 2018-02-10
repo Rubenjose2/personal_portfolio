@@ -33,6 +33,7 @@ h2 {
 
 .center_text {
     position: absolute;
+    left: 18%;
     top: 50%;
     transform: (-50%, -50%);
     font-family: 'Special Elite', cursive;
@@ -52,4 +53,12 @@ h2 {
 
 .content_cards {
     text-align: justify;
+}
+
+@media (max-width:767px) {
+    .center_text {
+        top: 10%;
+        left: 0%;
+        font-size: 30px;
+    }
 }
