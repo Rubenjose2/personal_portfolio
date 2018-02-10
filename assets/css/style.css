@@ -59,6 +59,11 @@ h2 {
     text-align: justify;
 }
 
+.greycolor {
+    background-color: rgb(243, 243, 243);
+    padding: 30px;
+}
+
 @media (max-width:767px) {
     .center_text {
         top: 10%;
@@ -73,5 +78,8 @@ h2 {
     }
     .container {
         margin-top: 300px;
+    }
+    .page-footer .footer-copyright {
+        height: 20px;
     }
 }
