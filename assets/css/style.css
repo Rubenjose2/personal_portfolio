@@ -26,6 +26,10 @@ h2 {
     opacity: 0.5;
 }
 
+.logo {
+    width: 120px;
+}
+
 .container_picture {
     position: relative;
     color: white;
@@ -34,7 +38,7 @@ h2 {
 .center_text {
     position: absolute;
     left: 18%;
-    top: 50%;
+    top: 30%;
     transform: (-50%, -50%);
     font-family: 'Special Elite', cursive;
     font-size: 40px;
@@ -60,5 +64,14 @@ h2 {
         top: 10%;
         left: 0%;
         font-size: 30px;
+    }
+    .picture_main {
+        display: none;
+    }
+    .container_picture {
+        color: black;
+    }
+    .container {
+        margin-top: 300px;
     }
 }
