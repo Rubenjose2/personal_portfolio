@@ -32,12 +32,32 @@
     You can delete these styles or move it to your custom css file -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
 <body>
     <main>
         <!-- Your content here -->
         <!-- Big Image Here -->
+        <nav>
+            <div class="nav-wrapper black">
+                <div class="container">
+                    <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#1">Who I am</a></li>
+                        <li><a href="#2">Project</a></li>
+
+                    </ul>
+                    <ul class="side-nav" id="mobile-menu">
+                        <li><a href="#1">Who I am</a></li>
+                        <li><a href="#2">Project</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
         <div class="container_picture">
             <img src="./assets/img/Portfolio-use.jpg" alt="main_picture" class="picture_main ">
             <div class="center_text center-align">
@@ -45,8 +65,9 @@
                 <span>Hi! My name is Ruben, and love to </span>
                 <span class="center_text2">build Solutions</span>
             </div>
+
         </div>
-        <div class="container top">
+        <div id="1" class="container top">
             <h2>Who I am?</h2>
             <div class="row">
                 <div class="col  m4 l4">
@@ -78,7 +99,7 @@
             </div>
         </div>
         <!-- Personal Project Section -->
-        <div class="greycolor">
+        <div id="2" class="greycolor">
             <h2>Personal Projects</h2>
             <div class="container">
                 <div class="row">
@@ -146,15 +167,13 @@
 
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">Technologies<i class="material-icons right">close</i></span> Build with the following technologies:</p>
-                                <p>Materialize</p>
+                                <p>HTML5</p>
                                 <p>Javascript</p>
-                                <p>Handlebar</p>
+                                <p>CSS</p>
                                 <p>NodeJs</p>
                                 <p>Express</p>
-                                <p>Api</p>
-                                <p>MongoDB</p>
-                                <p>Mongoose</p>
-                                <p>Axios</p>
+                                <p>Jquery</p>
+                                <p>Mysql DB</p>
                             </div>
                             <div class="card-action">
                                 <a href="https://blooming-dusk-48682.herokuapp.com/">Go live!</a>
@@ -188,6 +207,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <!-- Materialize JS CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="./assets/js/app.js"></script>
     <script>
         $("document").ready(function() {
             $(".button-collapse").sideNav();
